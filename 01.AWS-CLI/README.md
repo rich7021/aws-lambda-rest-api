@@ -8,7 +8,7 @@
 - via pip (we are going to omit this part)
 - [via Installer](#installer)
 
-[](#insaller)
+[](#installer)
 
 ### Install with installer
 
