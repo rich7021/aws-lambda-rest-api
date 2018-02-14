@@ -16,7 +16,9 @@ Just follow the instruction and reboot after finish, due to the installer append
 
 ### configure it
 
-Before we need to go to AWS IAM console to create an IAM user and as could as possible to use IAM user. IAM user also can log into console or access service. The different between IAM user and root account is IAM users are access restricted. IAM controls what they can access and significantly reduces the exposure probability of root account. That makes your account more safety. Even if the IAM user is hacked, the consequences are more controllable. Think about once root account is hacked, the disaster will be unstoppable.
+Before we need to go to AWS IAM console to create an IAM user and as could as possible to use IAM user.
+
+[reason for using IAM](00.AWS-IAM/README.md)
 
 Using `aws configure --profile adminuser` to configure IAM user. The console will ask about access key id and secret key, you can find in `IAM console > Users > (tag) Security Credentials`.
 
