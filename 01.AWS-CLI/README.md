@@ -18,7 +18,7 @@ Just follow the instruction and reboot after finish, due to the installer append
 
 Before we need to go to AWS IAM console to create an IAM user and as could as possible to use IAM user.
 
-[reason for using IAM](00.AWS-IAM/README.md)
+[reason for using IAM](/00.AWS-IAM/README.md)
 
 Using `aws configure --profile adminuser` to configure IAM user. The console will ask about access key id and secret key, you can find in `IAM console > Users > (tag) Security Credentials`.
 
