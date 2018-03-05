@@ -1,3 +1,9 @@
-# IAM
+# AWS Identity and Access Management (IAM)
 
-IAM user also can log into console or access service. The different between IAM user and root account is IAM users are access restricted. IAM controls what they can access and significantly reduces the exposure probability of root account. That makes your account more safety. Even if the IAM user is hacked, the consequences are more controllable. Think about once root account is hacked, the disaster will be unstoppable.
+As the name, IAM is a service to manage identities and accesses in your account or services.
+
+Signing in with IAM user can reduce times of log in with root account, it also reduce chances the root account is hacked (because of less times to transfer account information). It's a huge disaster when root account is hacked due to root account has fully control power, and it's unstoppable. <!--
+
+## Create IAM user with CloudFormation
+
+-->
